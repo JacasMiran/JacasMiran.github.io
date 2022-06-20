@@ -40,6 +40,9 @@ header{
     height: 100vh;
     color: var(--color-white);
     overflow: hidden;
+    @media screen and (max-width:610px){
+        min-height: 100vh;
+    }
 }
 
 section{
@@ -145,7 +148,7 @@ section{
                 height: 50px;
                 border-radius: 50%;
                 margin: 0 .4rem;
-                transition: all .5s ease-in-out;
+                transition: all .4s ease-in-out;
                 &:hover{
                     background-color: var(--color-secondary);
                     i{
@@ -548,3 +551,5 @@ section{
         }
     }
 }
+
+@import './media';
