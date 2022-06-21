@@ -37,7 +37,7 @@ a {
 }
 
 header {
-  height: 100vh;
+  min-height: 100vh;
   color: var(--color-white);
   overflow: hidden;
 }
@@ -257,7 +257,7 @@ section {
 .header-content {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  height: 101%;
+  min-height: 101vh;
 }
 .header-content .left-header {
   display: flex;
@@ -584,6 +584,50 @@ section {
   .header-content .left-header .image {
     margin: 0 auto;
     width: 90%;
+  }
+
+  .about-container {
+    grid-template-columns: 1fr;
+  }
+  .about-container .right-about {
+    grid-template-columns: 1fr;
+    padding-top: 2.5rem;
+  }
+  .about-container .left-about {
+    padding-right: 0;
+  }
+  .about-container .left-about p {
+    padding-left: 0;
+  }
+
+  .timeline {
+    grid-template-columns: 1fr;
+    padding-top: 2rem 2.5rem;
+  }
+
+  .about-stats .progress-bars {
+    grid-template-columns: 1fr;
+  }
+
+  .section {
+    padding: 2rem 2.5rem !important;
+  }
+
+  .contact-content-con {
+    flex-direction: column;
+  }
+  .contact-content-con .right-contact {
+    margin-left: 0;
+    margin-top: 2.5rem;
+  }
+
+  .contact-content-con .right-contact .i-c-2 {
+    flex-direction: column;
+  }
+
+  .contact-content-con .right-contact .i-c-2 :last-child {
+    margin-left: 0;
+    margin-top: 1.5rem;
   }
 
   .controlls {

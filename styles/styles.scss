@@ -37,7 +37,7 @@ a{
 }
 
 header{
-    height: 100vh;
+    min-height: 100vh;
     color: var(--color-white);
     overflow: hidden;
     @media screen and (max-width:610px){
@@ -256,7 +256,7 @@ section{
 .header-content{
     display: grid;
     grid-template-columns: repeat(2,1fr);
-    height: 101%;
+    min-height: 101vh;
     .left-header{
         display: flex;
         align-items: center;
