@@ -535,7 +535,6 @@ section{
             background-color: var(--color-secondary);
             transform: translateX(0);
         }
-
     }
 }
 
@@ -550,11 +549,6 @@ section{
             color: var(--color-secondary);
         }
     }
-}
-button{
-    background-color: var(--color-primary);
-    display: flex;
-    justify-content: flex-start;
 }
 
 @import './media';
