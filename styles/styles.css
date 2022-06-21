@@ -144,7 +144,7 @@ section {
   font-size: 1.3rem;
 }
 .contact-content-con .left-contact .contact-icon {
-  display: fles;
+  display: flex;
   margin-top: 2rem;
 }
 .contact-content-con .left-contact .contact-icon a {
