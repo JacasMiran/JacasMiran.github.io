@@ -654,6 +654,10 @@ button .btn-icon {
     margin-top: 1.5rem;
   }
 
+  .submit-btn {
+    padding-bottom: 6rem;
+  }
+
   .controlls {
     top: auto;
     bottom: 0;
