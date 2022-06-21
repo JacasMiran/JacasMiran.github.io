@@ -260,22 +260,24 @@
                             <form action="https://formspree.io/f/mrgjveko"
                             method="POST" class="contact-form">
                                 <div class="i-c-2">
-                                    <input type="text" required placeholder="Seu nome">
-                                    <input type="text" required placeholder="Email">
+                                    <input type="text" required placeholder="Seu nome" name="'name">
+                                    <input type="text" required placeholder="Email" name="email">
                                 </div>
                                 <div class="input-control">
-                                    <input type="text" required placeholder="Assunto">
+                                    <input type="text" required placeholder="Assunto" name="subject">
                                 </div>
                                 <div class="input-control">                                    
-                                    <textarea name="" id="" cols="15" rows="8" placeholder="Escreva a menssagem.."></textarea>
-                                </div>
-                                <div class="submit-btn">
+                                    <textarea name="message" id="" cols="15" rows="8" placeholder="Escreva a menssagem.."></textarea>
+                                </div>                                
+                                <div type="submit" class="submit-btn">
+                                    <button type="submit">
                                     <div class="btn-con">
                                         <a href="" class="main-btn">
                                             <span class="btn-text">Enviar</span>
                                             <span class="btn-icon"><i class="fa-solid fa-paper-plane"></i></span>
                                         </a>
                                     </div>
+                                    </button>
                                 </div>
                             </form>
                         </div>

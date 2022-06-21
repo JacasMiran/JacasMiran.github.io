@@ -551,5 +551,10 @@ section{
         }
     }
 }
+button{
+    background-color: var(--color-primary);
+    display: flex;
+    justify-content: flex-start;
+}
 
 @import './media';
